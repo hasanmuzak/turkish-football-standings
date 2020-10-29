@@ -1,7 +1,7 @@
 # Turkish-Football-Standings
 Turkish Football Standings
 ---
-This project fetches some important data from "sporx" and serves as json data in the backend.  
+This project fetches some important data via "cheerio" from "sporx" and serves as json data in the backend.  
 
 **Live Preview** : https://hasanmuzak.github.io/turkish-standings.github.io/ <br /><br />
 ![Live Preview](https://i.hizliresim.com/pbtwz5.png)
