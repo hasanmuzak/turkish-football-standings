@@ -3,8 +3,12 @@ Turkish Football Standings
 ---
 This project fetches some important data via "cheerio" from "sporx" and serves as json data in the backend.  
 
-**Live Preview** : https://hasanmuzak.github.io/turkish-standings.github.io/ <br /><br />
+**Live Preview Frontend** : https://hasanmuzak.github.io/turkish-standings.github.io/ <br /><br />
+**Live Preview Backend** : https://turkish-standings.herokuapp.com/ <br /><br />
 ![Live Preview](https://i.hizliresim.com/pbtwz5.png)
+
+### Backend Routers  
+```https://turkish-standings.herokuapp.com/api/super-lig-puan-durumu/```
 ### Technologies used
 
 **Backend :** Node.js - Express.js  
