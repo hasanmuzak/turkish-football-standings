@@ -7,7 +7,7 @@ This project fetches some important data from "sporx" and serves as json data in
 ![Live Preview](https://i.hizliresim.com/pbtwz5.png)
 ### Technologies used
 
-**Backend :** Node.js - Express.js
+**Backend :** Node.js - Express.js  
 **Frontend :** Vue.js - Tailwindcss - AtUi
 ---
 **Installation Backend**
