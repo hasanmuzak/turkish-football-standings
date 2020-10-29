@@ -8,13 +8,13 @@ This project fetches some important data via "cheerio" from "sporx" and serves a
 ![Live Preview](https://i.hizliresim.com/pbtwz5.png)
 
 ### Backend Routing || URLs
-```https://turkish-standings.herokuapp.com/api/super-lig-puan-durumu/```
-```https://turkish-standings.herokuapp.com/api/birinci-lig-puan-durumu/```
-```https://turkish-standings.herokuapp.com/api/ikinci-lig-puan-durumu/```
-```https://turkish-standings.herokuapp.com/api/ucuncu-lig-puan-durumu/```
-```https://turkish-standings.herokuapp.com/api/gol-krallari/super-lig/```
-```https://turkish-standings.herokuapp.com/api/asist-krallari/super-lig/```
-```https://turkish-standings.herokuapp.com/api/kirmizi-kart/super-lig/```
+```https://turkish-standings.herokuapp.com/api/super-lig-puan-durumu/```  
+```https://turkish-standings.herokuapp.com/api/birinci-lig-puan-durumu/```  
+```https://turkish-standings.herokuapp.com/api/ikinci-lig-puan-durumu/```  
+```https://turkish-standings.herokuapp.com/api/ucuncu-lig-puan-durumu/```  
+```https://turkish-standings.herokuapp.com/api/gol-krallari/super-lig/```  
+```https://turkish-standings.herokuapp.com/api/asist-krallari/super-lig/```  
+```https://turkish-standings.herokuapp.com/api/kirmizi-kart/super-lig/```  
 
 ### Technologies used
 
