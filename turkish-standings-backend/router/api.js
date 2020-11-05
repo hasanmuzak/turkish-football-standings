@@ -32,7 +32,7 @@ router.route('/super-lig-puan-durumu/')
             if (!error && response.statusCode === 200) {
                 const $ = await cheerio.load(html, {decodeEntities: false});
                 let counter = 0;
-                const heading = $('.table.table-league.table-striped').first().find('tbody > tr').find('td').each((index, value) => {
+                const heading = $('.table.table-league.table-striped').first().find('tbody > tr').find('td[class!=td-logo]').each((index, value) => {
                     if(index === 0 ){
                         return
                     }
@@ -87,7 +87,7 @@ router.route('/birinci-lig-puan-durumu/')
             if (!error && response.statusCode === 200) {
                 const $ = await cheerio.load(html, {decodeEntities: false});
                 let counter = 0;
-                const heading = $('.table.table-league.table-striped').first().find('tbody > tr').find('td').each((index, value) => {
+                const heading = $('.table.table-league.table-striped').first().find('tbody > tr').find('td[class!=td-logo]').each((index, value) => {
                     if(index === 0 ){
                         return
                     }
@@ -142,7 +142,7 @@ router.route('/ikinci-lig-puan-durumu/')
             if (!error && response.statusCode === 200) {
                 const $ = await cheerio.load(html, {decodeEntities: false});
                 let counter = 0;
-                const heading = $('.table.table-league.table-striped').first().find('tbody > tr').find('td').each((index, value) => {
+                const heading = $('.table.table-league.table-striped').first().find('tbody > tr').find('td[class!=td-logo]').each((index, value) => {
                     if(index === 0 ){
                         return
                     }
@@ -197,7 +197,7 @@ router.route('/ucuncu-lig-puan-durumu/')
             if (!error && response.statusCode === 200) {
                 const $ = await cheerio.load(html, {decodeEntities: false});
                 let counter = 0;
-                const heading = $('.table.table-league.table-striped').first().find('tbody > tr').find('td').each((index, value) => {
+                const heading = $('.table.table-league.table-striped').first().find('tbody > tr').find('td[class!=td-logo]').each((index, value) => {
                     if(index === 0 ){
                         return
                     }
